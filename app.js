@@ -1,12 +1,6 @@
 const phrases = [
-    "No 🙉",
-    "Are you sure?",
-    "Really Sure😢",
-    "I'll be very sad😕",
-    " Please🥺",
-    "Don't do this to me🫤",
-    "I'm gonna cry..😭",
-    "You are breaking my heart😭💔",
+    "Ne 🙉",
+    
   ];
   
   function handleYesClick() {
@@ -24,7 +18,7 @@ const phrases = [
   document.getElementById('root').innerHTML = `
     <div class='valentine-container'>
       <img class='kiss' src="https://media1.tenor.com/m/al4a1pG1f8YAAAAC/jump-bear.gif" alt="bear with heart">
-      <div class='text'>Will you be my valentine 🌹?</div>
+      <div class='text'>Farah, hoćeš li sa mnom na maturu? 🌹?</div>
       <div class='both-Button'>
         <button class='yesButton' style="font-size: 16px; background-color: rgb(248, 229, 89);" onclick="handleYesClick()">
           Yes 🙈
