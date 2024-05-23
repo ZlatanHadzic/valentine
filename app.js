@@ -4,7 +4,7 @@ const phrases = [
   ];
   
   function handleYesClick() {
-    document.querySelector('.kiss').src = "https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif";
+    document.querySelector('.kiss').src = "";
     document.querySelector('.text').innerText = "Yayyy !!!";
   }
   
@@ -17,7 +17,7 @@ const phrases = [
   
   document.getElementById('root').innerHTML = `
     <div class='valentine-container'>
-      <img class='kiss' src="https://media1.tenor.com/m/al4a1pG1f8YAAAAC/jump-bear.gif" alt="bear with heart">
+      <img class='kiss' src="https://tenor.com/view/prom-to-all-the-boys-always-and-forever-netflix-pancakes-gif-19966607" alt="bear with heart">
       <div class='text'>Farah, hoćeš li sa mnom na maturu? 🌹?</div>
       <div class='both-Button'>
         <button class='yesButton' style="font-size: 16px; background-color: rgb(248, 229, 89);" onclick="handleYesClick()">
